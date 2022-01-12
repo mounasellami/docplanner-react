@@ -1,0 +1,65 @@
+.docplanner-header{
+    width: 100%;
+    z-index: 7;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+    position: fixed;/*spec type position(static/fixed/relative/absolute/sticky)*/
+    top: 0;
+    left: 0;
+}
+.docplanner-nav{
+    display: flex; /*horizontal alignment(axis of x) alig between menu about career d*/
+    align-self: flex-start;/*Barre mlfou9*/
+    justify-content: space space-around;   /*space-between; spacing 3ala jnab*/
+    zoom: 1;
+    /* max-width: 973px; */
+    padding: 0 1.3%;/*****/
+    margin: 1.1%  12.53% ;/*****/
+}
+a { color: #747474;
+    list-style-type: none ;
+    text-decoration: none;   /* in7i star eli ken mlouta */
+}
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+.header-menu{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9.7px 0px; /* Spacing T B menu */
+    list-style-type: none ; /* "li" ta3ml point tn7iha*/
+    display: flex;
+}
+.header-menu a { 
+    color: #ababab;
+    padding: 0 10.3px ; /*space between el( about...) header-menu*/
+}
+#active { color: #00b39b; } 
+.header-menu a:hover { color: #00b39b;}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+} 
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9; /*tthol*/
+    min-width: 220px;
+    padding-top: 10px;
+    margin-left: -100px;
+    z-index: 1;
+    list-style-type: none ; /* "li" ta3ml point tn7iha*/
+}
+.dropdown-content li{
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content { display: block;}
+.dropdown-content li:hover  { 
+    background-color: #eaeaea; 
+}
+.dropdown-content li:hover  .link{ 
+    color: #00b39b;
+}

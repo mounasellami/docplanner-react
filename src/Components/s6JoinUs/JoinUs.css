@@ -1,0 +1,24 @@
+.join-us {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 1015px;
+    position: relative;
+    padding: 0 1.3%;/*****/
+    margin: 7.1% 12%; /* 1.1%  12% ;/*****/
+}
+.join-us h1 {
+    display: block;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 37px;
+}
+.btn-Seeallcurrentopenings {
+    text-decoration: none;
+    display: inline;
+    font-weight: 700px;
+    font-size: .75rem;
+    width: 174.406px;
+    height: 12px;
+    padding: 14px 18px;
+}

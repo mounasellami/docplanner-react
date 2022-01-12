@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*google font=>roboto*/
+.cards-introduction {
+    display: block;
+    width: 100%;
+    display: flex;   /* l'axe principale l'axe des x */
+    flex-direction: column;  /* l'axe principale l'axe des y */
+    text-align: center; /*center all paragraphs*/
+    line-height: 41px;   /* largesr space bettween line */
+    margin-bottom: 63px;/*space between cards-introduction & cards*/
+}       
+.cards-introduction h1 {
+    font-size: 31px;
+    line-height: 37px;   /* largest space bettween line */
+    margin-bottom: 9px;/*space between stats & cards-introduction*/
+}
+.cards-introduction p {
+    font-size: 14px;
+    line-height: 25px;   /* largest space bettween line */
+}
+
+.offices-cards {
+    align-items: center;
+    overflow: hidden;/*clip the big cont or to add scrollbars(scroll) */
+    display: flex;   /* l'axe principale l'axe des x */
+    flex-wrap: wrap;
+    box-sizing: inherit;
+    margin: 0 12%;
+    zoom: 1;
+    clear: both;
+}
+figure{ 
+    width: 33.333333333333%;
+    margin: 0;/*block without margin to let it 3cards in same line*/
+    padding-bottom: 30px;/*space between cards*/
+}
+.card {
+    padding: 0;/**/
+    overflow: hidden;/*clip the big cont or to add scrollbars(scroll) */
+    max-width: 311px;/*max of position btn*/
+    z-index: 2; /*order of a positioned*/
+    position: relative;/*type of positioning method(static, relative, fixed, absolute or sticky)*/
+    display: block;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,.03);    
+    background: #fff;
+    color: #747474;
+    box-shadow: 0 5px 10px 0 transparent;
+    transition: box-shadow .2s ease 0s;/*change property when i hover :add an effect  duration   slow start, then fast, then end slowly*/
+    text-decoration: none; /*not do lines under test*/
+}
+.card:hover {
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+figure img{ 
+    margin: 0 auto;
+    display: block;
+}
+figcaption {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 20px;
+}
+.btn {
+    display: inline-block; /*btn "next" to word "inline=same line"*/
+    vertical-align: middle; /*"position" the el (word) next to btn*/
+    background: #3d83df;
+    color: #fff;
+    outline: 0; /*OUTSIDE the borders */
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;/*5ochn lktiba*/
+    line-height: 16px;
+    letter-spacing: .04em;
+    position: relative;
+    transition: all .2s ease 0s;
+    font-family: Roboto,Arial,sans-serif;
+    zoom: 1;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:#1662c6;
+    color: #fff;
+}
+.btn-seeopenings{
+    font-size: .625rem; /*1rem=16px*/
+    padding: 10px 15px;    
+    float: right;
+}

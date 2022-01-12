@@ -1,0 +1,45 @@
+.Partners {
+    display: flex; /*horizontal alignment  (axis of x)*/
+    margin: 72px 0;
+    padding: 0 1.3%;/*****/
+    margin: 1.1%  12% ;/*****/
+}
+.Partners h1 {
+    width: 33%;
+    font-size: 26px;
+    margin: 16px 0 11px 0;
+    padding-right: 16px;
+}
+.Partners-logos {
+    width: 67%;
+    display: flex; /*horizontal alignment  (axis of x)*/
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 32px ;
+    line-height: 41px;   /* largest space bettween line */
+}
+.Partner-logo svg {
+    height: auto;
+    width: 136px; /* size logo svg138*/
+    max-width: 100%;
+    padding-right: 27px;
+}
+.Partner-logo svg path {
+    fill: currentColor; /* change color logo svg to gris*/    
+}
+.Partner-logo svg:hover{
+    color: #00b39b; /*when i click change color*/
+}
+.Partner-logo img {
+    height: 34px;
+    width: 130px; /* size logo svg*/
+    max-width: 90%;
+}
+.grayscale { 
+    filter: invert(0.6) saturate(0.6); /* change color logo img to gris*/
+ /*https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/*/
+}
+.grayscale:hover{
+    filter: none; /*when i click change color*/
+}

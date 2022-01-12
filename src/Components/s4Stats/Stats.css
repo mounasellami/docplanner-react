@@ -1,0 +1,68 @@
+.stats {
+    height: 600px;
+    zoom: 1;
+    padding: 20px 20px;
+    margin: 50px 0 88px 0;
+    background-color: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    overflow: hidden;/*hidden:ttna7a lktiba eli lbara lblock (visible:ktiba 7atta ta7t tab / scroll:ta3ml scroll wst tab-auto:scroll)*/
+    display: block;
+    position: relative;
+}
+.col-{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.col- .col-stats-left{  
+    margin-top: 57px;
+    padding-left: 77px;
+}
+.stats-introduction {
+    padding: 0 1.3%;/*****/       /* padding: 10px 0 0 100px; */
+    margin: 1.1%  12% ;/*****/    
+    right: 67%;
+    top: 45%;
+    width: 456px;
+    pointer-events: none;
+}
+.stats-introduction h1{
+    width: 497px;
+    margin: 23px 0;
+    font-size: 35px;
+}
+.stats-introduction p{
+    width: 107%;
+    font-size: 14px;
+    line-height: 21px;   /* largest space bettween line */
+}
+.logo-background{ 
+    zoom: 1;
+    max-width: 1015px;
+} 
+ 
+.col-stats-right {
+    display : flex;
+    /* flex-wrap: wrap; /*wrap:inatham card1.card2.../nowrap: nfs star 1.2..mnatham/wrap-reverse:7.6.5..*/
+}
+.stats-card {
+    display: flex;
+    text-align: center; /* vertical-align: middle; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    width: 228.750px; /* width: 35%;*/
+    height: 250px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px;
+    margin: 20px 10px; 
+    overflow: hidden;/*ttna7a lktiba eli bara tab*/
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+}
+.stats-card h3 {
+    font-size: 29.53px;
+}
+.stats-card p {
+    font-size: 13px;
+}

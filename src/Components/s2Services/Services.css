@@ -1,0 +1,59 @@
+.services {
+    display: flex;
+    margin: 0 3%;/* justify-content: center; */
+    height: 345px;
+    width: 100%;
+    border: 0;
+}
+.service-card {
+    width: 23.5%; /*33.333333333333%;*/
+    padding: 10px;
+    border-radius: 7px;   /* coin arrondi */
+    color: white;
+    border: none;
+    overflow: hidden;
+}
+.service-card-patients{
+   background-color: #00b39b;
+   margin-right: 12px;   /*space between card and the other cad*/
+   padding: 32px 32px 0 32px;
+}
+.service-card-doctors {
+    background-color:#3d83df;
+    margin: 0 6px;   /*space between card and the other cad*/
+    padding: 32px 32px 0 32px;
+}
+.service-card-clinics{
+    background-color: #1b2734;
+    margin-left: 12px;   /*space between card and the other cad*/
+    padding: 32px 32px 0 32px;
+}
+.service-card-for{
+    font-weight: 400;
+    color: #fff;
+    margin: 4px 0;
+    font-size: 26px;
+}
+.service-card-text{
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.2;
+    padding-bottom: 93px;
+}
+.clinic {
+    padding-bottom: 58px;
+}
+.service-card-select{
+    margin-bottom: 15px;
+    color: white;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: 19px;
+    padding: 0 7px 0 0;   /* s. between words and >row */
+}
+option {
+    color: black;
+}
